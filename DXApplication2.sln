@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DXApplication2.Module", "DXApplication2.Module\DXApplication2.Module.csproj", "{6C3B62A0-568E-4659-B3DD-F0C16A72CDDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DXApplication2.Blazor.Server", "DXApplication2.Blazor.Server\DXApplication2.Blazor.Server.csproj", "{B0FEA450-6594-443E-84AD-2D50A14636F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C3B62A0-568E-4659-B3DD-F0C16A72CDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3B62A0-568E-4659-B3DD-F0C16A72CDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3B62A0-568E-4659-B3DD-F0C16A72CDDA}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{6C3B62A0-568E-4659-B3DD-F0C16A72CDDA}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{6C3B62A0-568E-4659-B3DD-F0C16A72CDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3B62A0-568E-4659-B3DD-F0C16A72CDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FEA450-6594-443E-84AD-2D50A14636F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FEA450-6594-443E-84AD-2D50A14636F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FEA450-6594-443E-84AD-2D50A14636F3}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{B0FEA450-6594-443E-84AD-2D50A14636F3}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{B0FEA450-6594-443E-84AD-2D50A14636F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FEA450-6594-443E-84AD-2D50A14636F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF7377AA-D397-447F-90D1-EDD5BE945475}
+	EndGlobalSection
+EndGlobal

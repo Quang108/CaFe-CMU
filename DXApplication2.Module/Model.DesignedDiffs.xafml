@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="DX_CaFeCMU">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@7b95bae1-031b-4297-a783-acf90b3a7a62" Caption="Quản lý" ImageName="BO_Sale_Item" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@480810d8-b4e7-4dcc-aa8e-3012188b2609" ViewId="SanPham_ListView" IsNewNode="True" />
+          <Item Id="@b64d2ad5-24b5-47d0-9867-2919af1e58b8" ViewId="Hoadon_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>
