@@ -6,6 +6,8 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+//TRANMINHTRI
+
 using System;
 using DevExpress.Xpo;
 using DevExpress.Xpo.Metadata;
